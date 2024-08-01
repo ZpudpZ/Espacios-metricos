@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espacio Métrico en Puno</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Espacio Métrico en Puno</h1>
+        <div class="text-center mb-4">
+            <button id="add-random-point" class="btn btn-primary">Agregar Punto Aleatorio</button>
+            <button id="remove-all-points" class="btn btn-danger">Eliminar Todos los Puntos</button>
+            <button id="calculate-distances" class="btn btn-info">Medir Distancias</button>
+        </div>
+        <div class="map-container mb-4">
+            <div id="map"></div>
+        </div>
+        <div id="info" class="text-center">
+            <p id="user-location">Ubicación Seleccionada: Ninguno</p>
+            <p id="nearest-neighbor">Vecino Más Cercano: Ninguno</p>
+            <p id="distance-info">Distancia Calculada: Ninguna</p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

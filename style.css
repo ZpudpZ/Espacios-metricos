@@ -1,0 +1,16 @@
+/* Estilo para el contenedor del mapa */
+.map-container {
+  height: 500px;
+  width: 100%;
+}
+
+/* Estilo adicional para mejorar la visualización */
+#info {
+  margin-top: 20px;
+}
+
+/* Asegúrate de que el mapa ocupa todo el contenedor */
+#map {
+  height: 100%;
+  width: 100%;
+}
